@@ -4,16 +4,17 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
         .pyo {
-            position: relative;
+            display: inline-block;
             border: 5px solid black;
             background-color: cadetblue;
-            padding: 0px;
+            padding: 10px 20px;
             align-items: center;
         }
     </style>
 </head>
 <body>
     <div class="pyo">
+        <legend>회원등록정보입력</legend>
          date <input type="date" name="date">
          <br>
          datetime <input type="datetime">
@@ -33,6 +34,9 @@
           <br>
           birth 월<input type="number" min="1" max="12">
                 일<input type="number" min="1" max="31">
-    </div>
+    </div><br>
+    
+    <input type="submit" name="submit" id="">
+    <input type="reset">
 </body>
 </html>
